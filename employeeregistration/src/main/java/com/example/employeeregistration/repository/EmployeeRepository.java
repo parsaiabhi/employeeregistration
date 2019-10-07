@@ -15,6 +15,8 @@ import com.example.employeeregistration.entity.Employee;
  */
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer>{
+  
+  public List<Employee> getAll();
 
 }
 
