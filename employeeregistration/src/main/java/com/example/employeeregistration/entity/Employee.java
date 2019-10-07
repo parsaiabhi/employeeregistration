@@ -11,6 +11,7 @@ package com.example.employeeregistration.entity;
  */
 
 public class Employee {
+  private Integer id;
 
 }
 
